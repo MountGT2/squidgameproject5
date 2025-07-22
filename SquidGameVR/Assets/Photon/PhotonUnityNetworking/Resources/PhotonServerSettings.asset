@@ -16,10 +16,10 @@ MonoBehaviour:
     AppIdRealtime: c01107c1-c8ba-4a95-b306-72eb255e7ed5
     AppIdFusion: 
     AppIdChat: 
-    AppIdVoice: 
+    AppIdVoice: b7bb6eb5-74c8-455f-a11e-01ba035b6cbb
     AppVersion: 
     UseNameServer: 1
-    FixedRegion: 
+    FixedRegion: us
     Server: 
     Port: 0
     ProxyServer: 
@@ -44,6 +44,15 @@ MonoBehaviour:
   - RespawnSpaceship
   - RPCRefreshPlayerValues
   - SetNumber
+  - RPC_ReceiveDisabledIndices
+  - RPC_RequestState
+  - RPC_DisablePart
+  - RPC_ResetAll
+  - RPC_SetupMaterials
+  - RPC_Disable
+  - RPC_Setup
+  - DisableSelf
+  - SyncDisableSelection
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 0
